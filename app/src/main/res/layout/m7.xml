@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.19375" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2325" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_b16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/guideline17"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintRight_toLeftOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/guideline16"
+        app:srcCompat="@drawable/b16" />
+
+    <TextView
+        android:id="@+id/textb16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="思高學苑"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline15"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43125" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <TextView
+        android:id="@+id/textb17"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="希嘉學苑"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline24"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline23" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_b17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/guideline26"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintRight_toLeftOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/guideline25"
+        app:srcCompat="@drawable/b17" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.71875" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <TextView
+        android:id="@+id/textb18"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="善牧學苑"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline28"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/guideline27"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn_b18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/b18"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/guideline30"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        app:layout_constraintRight_toLeftOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/guideline29"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
